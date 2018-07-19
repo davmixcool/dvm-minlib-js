@@ -1,3 +1,5 @@
+var math = require('mathjs');
+
 module.exports = {
 
 	mulNumbers: function (a,b){

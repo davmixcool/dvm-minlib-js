@@ -49,5 +49,3 @@ Enter all the information - name, version, description, entry point, test comman
 ## Write and test the library locally
 
 Write and test the library
-
-Create the source file src/index.js
