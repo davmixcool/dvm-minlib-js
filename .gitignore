@@ -44,6 +44,7 @@ Icon
 # Node modules
 /node_modules
 
+#prevent lock file
 package-lock.json
 
 # JetBrains
