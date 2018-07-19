@@ -70,7 +70,7 @@ To work with npm you need to install node. Also on the first time you need to cr
 
 - Push it to github run the following commands:
 
-`git add .`
+`git add --all`
 
 `git commit –m 'basic files'`
 
