@@ -1,5 +1,5 @@
 # dvm-minlib-js
-Skeleton package to build JavaScript library
+Skeleton package to build JavaScript library and publish to NpmJs
 
 ## Steps:
 
@@ -40,12 +40,34 @@ To work with npm you need to install node. Also on the first time you need to cr
 
 `npm adduser`
 
-Then create the `package.json` file for your library run the following command:
-
-`npm init`
-
-Enter all the information - name, version, description, entry point, test command ,git repository, keywords and license - you can add the default values. this command will create a `package.json` file you can always edit.  
 
 ## Write and test the library locally
 
-Write and test the library
+- Now you are done with the library and can test it using node command line tool:
+
+`$ node`
+`> var lib=require('./src/index.js');`
+`> lib.addNumbers(6,7);`
+`13
+`> .exit`
+
+
+## Publish your library to GitHub and NPM
+
+- Push it to github run the following commands:
+
+`git add .`
+`git commit –m 'basic files'`
+`git push`
+
+- And publish it to npm using the command:
+
+`npm publish`
+
+Thats it!!! you can use the library now
+
+To creare a relese version run:
+
+`git tag 1.0.0`
+`git push –tags`
+`npm publish`
